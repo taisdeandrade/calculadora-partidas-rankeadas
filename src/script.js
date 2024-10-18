@@ -1,12 +1,12 @@
-const nome = "Jhon";
-const xp = 4300;
+let nome = "Jhon";
+let xp = 4300;
 
 
-const vitoria = 30;
-const derrota = 15;
+let vitoria = 30;
+let derrota = 15;
 
-const saldo = calculaSaldo(vitoria, derrota);
-const nivel = level(saldo);
+let saldo = calculaSaldo(vitoria, derrota);
+let nivel = level(saldo);
 
 console.log(`O Herói tem saldo de ${saldo} está no nível ${nivel}`);
 
